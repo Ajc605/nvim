@@ -7,7 +7,6 @@ return {
 		dependencies = {
 			"saadparwaiz1/cmp_luasnip",
 			"rafamadriz/friendly-snippets",
-			"khoinv/intellij-snippets",
 			"Shougo/neosnippet.vim",
 			"Shougo/neosnippet-snippets",
 		},

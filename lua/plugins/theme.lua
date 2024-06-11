@@ -1,13 +1,13 @@
 -- catppuccin theme
--- return {
--- 	"catppuccin/nvim",
--- 	name = "catppuccin",
--- 	priority = 1000,
--- 	config = function()
--- 		vim.cmd.colorscheme("catppuccin")
--- 		vim.opt.background = "dark"
--- 	end,
--- }
+return {
+	"catppuccin/nvim",
+	name = "catppuccin",
+	priority = 1000,
+	config = function()
+		vim.cmd.colorscheme("catppuccin")
+		vim.opt.background = "dark"
+	end,
+}
 -- return {
 -- 	"zootedb0t/citruszest.nvim",
 -- 	lazy = false,
@@ -25,11 +25,11 @@
 --         vim.cmd("colorscheme moonfly")
 --     end
 -- }
-return {
-	"EdenEast/nightfox.nvim",
-	priority = 1000,
-	config = function()
-		vim.cmd.colorscheme("carbonfox")
-		vim.opt.background = "dark"
-	end,
-}
+-- return {
+-- 	"EdenEast/nightfox.nvim",
+-- 	priority = 1000,
+-- 	config = function()
+-- 		vim.cmd.colorscheme("carbonfox")
+-- 		vim.opt.background = "dark"
+-- 	end,
+-- }
