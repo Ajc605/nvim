@@ -4,6 +4,7 @@ vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
 vim.cmd("set clipboard=unnamedplus")
 vim.cmd("set number relativenumber")
+-- vim.cmd("set spelllang=en_uk")
 
 vim.g.mapleader = " "
 vim.g.have_nerd_font = true
@@ -18,7 +19,9 @@ vim.opt.signcolumn = "yes"
 vim.opt.updatetime = 250
 vim.opt.timeoutlen = 300
 vim.opt.hlsearch = true
-vim.opt.spelllang =en
+vim.opt.spelllang = "en_gb"
+vim.opt.spelloptions = "camel"
+vim.opt.spell = true
 
 vim.keymap.set("n", "<c-k>", ":wincmd k<CR>")
 vim.keymap.set("n", "<c-j>", ":wincmd j<CR>")
